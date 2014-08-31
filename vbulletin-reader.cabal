@@ -9,4 +9,4 @@ cabal-version:       >=1.8
 
 executable vbulletin-reader
   main-is:             Main.hs
-  build-depends:       bytestring, http-conduit, containers, base ==4.7.*
+  build-depends:       tagsoup, bytestring, http-conduit, containers, base ==4.7.*
